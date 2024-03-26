@@ -1,0 +1,43 @@
+body {
+    background-image: url('image.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+    margin: 0;
+    padding: 0;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.time {
+    margin: 10px 10px;
+    padding: 10px 10px;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.head {
+    border-bottom: 5px #ffffff solid;
+}
+
+#PMAM {
+    padding-top: 115px;
+    font-size: 25px;
+}
