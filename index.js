@@ -17,7 +17,7 @@ const showTime = () => {
         document.querySelector('#PMAM').innerHTML = 'PM'
 
     } else {
-        document.querySelector('#Time').innerHTML = `${hour-12}:${min}:${sec}`
+        document.querySelector('#Time').innerHTML = `${hour}:${min}:${sec}`
         document.querySelector('#PMAM').innerHTML = 'AM'
     }
 
