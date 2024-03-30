@@ -11,7 +11,8 @@ const showTime = () => {
     let day = time.getDay()
     let month = time.getMonth()
     document.querySelector('#date').innerHTML = `${date}:${month+1}:${year}`
-    document.querySelector('#day').innerHTML = Days[day-1]
+    document.querySelector('#day').innerHTML = Days[Days.length-1]
+        ]
     if (hour >= 12){
         document.querySelector('#Time').innerHTML = `${hour-12}:${min}:${sec}`
         document.querySelector('#PMAM').innerHTML = 'PM'
